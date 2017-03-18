@@ -14,3 +14,19 @@
 @media all and (min-width: 600px) {
     .app-container{ flex: 1 auto; }
 }
+
+.header {
+    text-align: right;
+}
+
+.logo {
+    float: left;
+}
+
+.main > img {
+    max-width: 100%;
+}
+
+.app-container {
+    text-align: center;
+}
