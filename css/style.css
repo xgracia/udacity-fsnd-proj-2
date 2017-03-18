@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    /* center main container */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container > * {
+    padding: 10px;
+    flex: 1 100%;
+}
