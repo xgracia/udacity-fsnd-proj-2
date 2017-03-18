@@ -7,8 +7,9 @@
 }
 
 .container > * {
-    padding: 10px;
+    padding: 20px 0;
     flex: 1 100%;
+    color: #2d3c49;
 }
 
 @media all and (min-width: 600px) {
@@ -17,6 +18,15 @@
 
 .header {
     text-align: right;
+    border-bottom: 5px solid #7d97ad;
+}
+
+.header h1 {
+    font: small-caps 3em sans-serif;
+}
+
+.header h3 {
+    font: small-caps 1.5em sans-serif;
 }
 
 .logo {
@@ -27,6 +37,16 @@
     max-width: 100%;
 }
 
+.article {
+    color: #7d97ad;
+    font: 1.5em sans-serif;
+}
+
 .app-container {
     text-align: center;
+    font-family: sans-serif;
+}
+
+.app-title {
+    font: small-caps 1.5em sans-serif;
 }
