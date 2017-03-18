@@ -10,3 +10,7 @@
     padding: 10px;
     flex: 1 100%;
 }
+
+@media all and (min-width: 600px) {
+    .app-container{ flex: 1 auto; }
+}
